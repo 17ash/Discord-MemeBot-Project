@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTQxMDU4MjIwMTQxNzk5MDE1NA.GLTK-g.O1ocfU0mehtZlHCG4PkQLzGKRg_P_SXf7zpGNQ') # Replace with your own token.
+client.run('REPLACE WITH YOUR TOKEN') # Replace with your own token.
 async def on_message(self, message):
   if message.author == self.user:
     return
@@ -44,3 +44,4 @@ intents.message_content = True
 
 client = MyClient(intents=intents)
 client.run("MTQxMDU4MjIwMTQxNzk5MDE1NA.GLTK-g.O1ocfU0mehtZlHCG4PkQLzGKRg_P_SXf7zpGNQ")
+
